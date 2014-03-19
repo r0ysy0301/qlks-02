@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qlks-02", "qlks-02\qlks-02.csproj", "{C6413278-B62F-41F1-8424-C350B2A633F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qlks-02.Web", "qlks-02\qlks-02.Web.csproj", "{C6413278-B62F-41F1-8424-C350B2A633F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qlks-02.Data", "qlks-02.Data\qlks-02.Data.csproj", "{4A5499B5-894B-4ABD-824C-6CBD967403C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "qlks-02.Admin", "qlks-02.Admin\qlks-02.Admin.csproj", "{59E3E89A-003D-461C-A848-471A87F1D12B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C6413278-B62F-41F1-8424-C350B2A633F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6413278-B62F-41F1-8424-C350B2A633F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6413278-B62F-41F1-8424-C350B2A633F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5499B5-894B-4ABD-824C-6CBD967403C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5499B5-894B-4ABD-824C-6CBD967403C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5499B5-894B-4ABD-824C-6CBD967403C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5499B5-894B-4ABD-824C-6CBD967403C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E3E89A-003D-461C-A848-471A87F1D12B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E3E89A-003D-461C-A848-471A87F1D12B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E3E89A-003D-461C-A848-471A87F1D12B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E3E89A-003D-461C-A848-471A87F1D12B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
