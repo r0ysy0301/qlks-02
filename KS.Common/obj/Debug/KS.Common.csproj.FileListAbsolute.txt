@@ -1,0 +1,5 @@
+C:\Users\Hàn\Desktop\New folder\KS.Common\bin\Debug\KS.Common.dll
+C:\Users\Hàn\Desktop\New folder\KS.Common\bin\Debug\KS.Common.pdb
+C:\Users\Hàn\Desktop\New folder\KS.Common\obj\Debug\KS.Common.csprojResolveAssemblyReference.cache
+C:\Users\Hàn\Desktop\New folder\KS.Common\obj\Debug\KS.Common.dll
+C:\Users\Hàn\Desktop\New folder\KS.Common\obj\Debug\KS.Common.pdb
