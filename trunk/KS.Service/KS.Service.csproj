@@ -39,9 +39,56 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Admin\AdminCHITIETPHIEUDPService.cs" />
+    <Compile Include="Admin\AdminDICHVUService.cs" />
+    <Compile Include="Admin\AdminDOANKHACHService.cs" />
+    <Compile Include="Admin\AdminKHACHCUNGPHONGService.cs" />
+    <Compile Include="Admin\AdminKHACHService.cs" />
+    <Compile Include="Admin\AdminLOAIPHONGService.cs" />
+    <Compile Include="Admin\AdminNHANVIENService.cs" />
+    <Compile Include="Admin\AdminPHIEUDATPHONGService.cs" />
+    <Compile Include="Admin\AdminPHIEUDICHVUService.cs" />
+    <Compile Include="Admin\AdminPHIEUTHUETRAService.cs" />
+    <Compile Include="Admin\AdminPHONGService.cs" />
+    <Compile Include="Admin\AdminUSERService.cs" />
+    <Compile Include="BaseService.cs" />
+    <Compile Include="Base\CHITIETPHIEUDPService.cs" />
+    <Compile Include="Base\DICHVUService.cs" />
+    <Compile Include="Base\DOANKHACHService.cs" />
+    <Compile Include="Base\KHACHCUNGPHONGService.cs" />
+    <Compile Include="Base\KHACHService.cs" />
+    <Compile Include="Base\LOAIPHONGService.cs" />
+    <Compile Include="Base\NHANVIENService.cs" />
+    <Compile Include="Base\PHIEUDATPHONGService.cs" />
+    <Compile Include="Base\PHIEUDICHVUService.cs" />
+    <Compile Include="Base\PHIEUTHUETRAService.cs" />
+    <Compile Include="Base\PHONGSevice.cs" />
+    <Compile Include="Base\USERService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quanli\QuanliCHITIETPHIEUDPService.cs" />
+    <Compile Include="Quanli\QuanliDICHVUService.cs" />
+    <Compile Include="Quanli\QuanliDOANKHACHService.cs" />
+    <Compile Include="Quanli\QuanliKHACHCUNGPHONGService.cs" />
+    <Compile Include="Quanli\QuanliKHACHService.cs" />
+    <Compile Include="Quanli\QuanliLOAIPHONGService.cs" />
+    <Compile Include="Quanli\QuanliNHANVIENService.cs" />
+    <Compile Include="Quanli\QuanliPHIEUDATPHONGService.cs" />
+    <Compile Include="Quanli\QuanliPHIEUDICHVUService.cs" />
+    <Compile Include="Quanli\QuanliPHIEUTHUETRAService.cs" />
+    <Compile Include="Quanli\QuanliPHONGService.cs" />
+    <Compile Include="Quanli\QuanliUSERService.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KS.Common\KS.Common.csproj">
+      <Project>{71d1bc5f-c22a-46ee-90ad-3309b598d453}</Project>
+      <Name>KS.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KS.Core\KS.Core.csproj">
+      <Project>{e113dee5-7a26-4ea8-a50b-92dcae565192}</Project>
+      <Name>KS.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
