@@ -9,17 +9,17 @@ namespace KS.Data
     public class UnitOfWork: IUnitOfWork
     {
         private IDataContext dataContext;
-        private readonly IDatabaseks databaseks;
+        private readonly IDatabaseFactory databaseFactory;
         protected IDataContext DataContext
         {
             get 
             {
-                return dataContext ?? (dataContext = databaseks.Get());
+                return dataContext ?? (dataContext = databaseFactory.Get());
             }
         }
-        public UnitOfWork(IDatabaseks databaseks)
+        public UnitOfWork(IDatabaseFactory databaseFactory)
         {
-            this.databaseks = databaseks;
+            this.databaseFactory = databaseFactory;
         }
         public int Commit()
         {

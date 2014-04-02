@@ -7,12 +7,17 @@ namespace KS.Core.Model
     [Table("PHIEUDATPHONG")]
     public partial class PHIEUDATPHONG:PersistentEntity
     {
+        
+        public PHIEUDATPHONG()
+        {
+            this.CHITIETPHIEUDPs = new HashSet<CHITIETPHIEUDP>();
+        }
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public string MaPhieuDP { get; set; }
         public string YeuCauLoaPhong { get; set; }
         public Nullable<int> SoLuongPhong { get; set; }
 
-        public virtual CHITIETPHIEUDP CHITIETPHIEUDP { get; set; }
+        public virtual ICollection<CHITIETPHIEUDP> CHITIETPHIEUDPs { get; set; }
     }
 }

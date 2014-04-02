@@ -14,7 +14,7 @@ namespace KS.Core.Model
         }
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public string MaLoaPhong { get; set; }
+        public string MaLoaiPhong { get; set; }
         public string TenLoai { get; set; }
         public Nullable<decimal> DonGia { get; set; }
 

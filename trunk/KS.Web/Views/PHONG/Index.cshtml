@@ -1,0 +1,10 @@
+﻿@model IEnumerable<KS.Core.Model.PHONG>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Danh sach phong hiện có</h2>
+ @foreach (var phong in Model)
+ {
+    <p>@phong.MaPhong  |    @phong.TinhTrang </p>  
+ }

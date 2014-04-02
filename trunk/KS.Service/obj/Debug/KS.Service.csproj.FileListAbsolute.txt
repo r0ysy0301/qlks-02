@@ -7,3 +7,12 @@ C:\Users\Hàn\Desktop\New folder\KS.Service\bin\Debug\KS.Core.pdb
 C:\Users\Hàn\Desktop\New folder\KS.Service\obj\Debug\KS.Service.csprojResolveAssemblyReference.cache
 C:\Users\Hàn\Desktop\New folder\KS.Service\obj\Debug\KS.Service.dll
 C:\Users\Hàn\Desktop\New folder\KS.Service\obj\Debug\KS.Service.pdb
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\bin\Debug\KS.Service.dll
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\bin\Debug\KS.Service.pdb
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\bin\Debug\KS.Common.dll
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\bin\Debug\KS.Core.dll
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\bin\Debug\KS.Common.pdb
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\bin\Debug\KS.Core.pdb
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\obj\Debug\KS.Service.csprojResolveAssemblyReference.cache
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\obj\Debug\KS.Service.dll
+C:\Users\Hàn\Desktop\DA_HK6\KS.Service\obj\Debug\KS.Service.pdb
