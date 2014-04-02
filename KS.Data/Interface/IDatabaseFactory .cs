@@ -2,7 +2,7 @@
 
 namespace KS.Data.Interface
 {
-    public interface IDatabaseks:IDisposable
+    public interface IDatabaseFactory : IDisposable
     {
         IDataContext Get();
     }

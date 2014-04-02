@@ -14,7 +14,7 @@ namespace KS.Data
     {
         private IDataContext dataContext;
         private readonly IDbSet<T> dbSet;
-        private readonly IDatabaseks databaseFactory;
+        private readonly IDatabaseFactory databaseFactory;
 
 
         protected IDbSet<T> DbSet
@@ -22,7 +22,7 @@ namespace KS.Data
             get { return dbSet; }
         }
 
-        protected IDatabaseks DatabaseFactory
+        protected IDatabaseFactory DatabaseFactory
         {
             get { return databaseFactory; }
         }
@@ -32,7 +32,7 @@ namespace KS.Data
             get { return dataContext ?? (dataContext = databaseFactory.Get()); }
         }
 
-        public Repository(IDatabaseks databaseFactory)
+        public Repository(IDatabaseFactory databaseFactory)
         {
             this.databaseFactory = databaseFactory;
             this.dbSet = DataContext.DbSet<T>();

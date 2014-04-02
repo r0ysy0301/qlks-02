@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
 using KS.Core.Model;
-using KS.Data;
+
 
 namespace KS.Data.Interface
 {

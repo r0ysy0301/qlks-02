@@ -18,8 +18,8 @@ namespace KS.Data
                 return true;
             }
         }
-        public AdminRepository(IDatabaseks databaseks)
-            : base(databaseks)
+        public AdminRepository(IDatabaseFactory databaseFactory)
+            : base(databaseFactory)
         { }
     }
 }

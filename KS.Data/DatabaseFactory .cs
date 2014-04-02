@@ -7,7 +7,7 @@ using KS.Common.Disposable;
 
 namespace KS.Data
 {
-    public class Databaseks:Disposable, IDatabaseks
+    public class DatabaseFactory : Disposable, IDatabaseFactory
     {
 
         private IDataContext dataContext;

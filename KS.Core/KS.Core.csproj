@@ -93,7 +93,6 @@
     <Compile Include="Model\PHIEUDICHVU.cs" />
     <Compile Include="Model\PHIEUTHUETRA.cs" />
     <Compile Include="Model\PHONG.cs" />
-    <Compile Include="Model\sysdiagram.cs" />
     <Compile Include="Model\USER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

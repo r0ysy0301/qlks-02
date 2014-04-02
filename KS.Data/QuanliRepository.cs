@@ -15,8 +15,8 @@ namespace KS.Data
                 return true;
             }
         }
-        public QuanliRepository(IDatabaseks databaseks)
-            : base(databaseks)
+        public QuanliRepository(IDatabaseFactory databaseFactory)
+            : base(databaseFactory)
         { }
     }
 }

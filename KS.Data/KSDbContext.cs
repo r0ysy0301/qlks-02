@@ -29,7 +29,6 @@ namespace KS.Data
         public DbSet<PHIEUDICHVU> PHIEUDICHVUs { get; set; }
         public DbSet<PHIEUTHUETRA> PHIEUTHUETRAs { get; set; }
         public DbSet<PHONG> PHONGs { get; set; }
-        public DbSet<sysdiagram> sysdiagrams { get; set; }
 
 
         public IDbSet<T> DbSet<T>() where T : PersistentEntity
