@@ -204,3 +204,5 @@ C:\Users\Hàn\Desktop\DA_HK6\KS.Web\bin\zh-Hant\System.Spatial.resources.dll
 C:\Users\Hàn\Desktop\DA_HK6\KS.Web\obj\Debug\KS.Web.csprojResolveAssemblyReference.cache
 C:\Users\Hàn\Desktop\DA_HK6\KS.Web\obj\Debug\KS.Web.dll
 C:\Users\Hàn\Desktop\DA_HK6\KS.Web\obj\Debug\KS.Web.pdb
+C:\Users\Hàn\Desktop\New folder\KS.Web\bin\Ninject.Web.dll
+C:\Users\Hàn\Desktop\New folder\KS.Web\bin\Ninject.Web.xml

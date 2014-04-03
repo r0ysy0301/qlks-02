@@ -2,47 +2,246 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+        <title>@ViewBag.Title</title>
         <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <meta name="viewport" content="width=device-width" />
-        @Styles.Render("~/Content/css")
-        @Scripts.Render("~/bundles/modernizr")
-    </head>
-    <body>
-        <header>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
-                </div>
-                <div class="float-right">
-                    <section id="login">
-                        @Html.Partial("_LoginPartial")
-                    </section>
-                    <nav>
-                        <ul id="menu">
-                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <div id="body">
-            @RenderSection("featured", required: false)
-            <section class="content-wrapper main-content clear-fix">
-                @RenderBody()
-            </section>
-        </div>
-        <footer>
-            <div class="content-wrapper">
-                <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
-                </div>
-            </div>
-        </footer>
+        @Styles.Render("~/Content/css1")
+        @RenderSection("CssHeader", required: false)
 
+        @Scripts.Render("~/bundles/modernizr")
+ 
         @Scripts.Render("~/bundles/jquery")
-        @RenderSection("scripts", required: false)
-    </body>
+        @Scripts.Render("~/bundles/layoutscript")
+
+        @RenderSection("ScriptsHeader", required: false)
+
+@*      <link href="~/Content/css/reset.css" rel="stylesheet">
+        <link href="~/Content/css/grid.css" rel="stylesheet">
+        <link href="~/Content/css/nivo.css" rel="stylesheet">
+        <link href="~/Content/css/custom.css" rel="stylesheet">
+        <script src="~/Content/js/jquery.js"></script>*@
+    </head>
+
+
+ <body>
+    <div id="page_wrap">
+
+    <header>
+
+        <div class="logo-container">
+
+            <a id="logo" title="Metro Creative Design" href="index.html"><img src="css/img/logo.png" alt="Tên Khách Sạn"></a>
+
+        </div><!-- Logo Side ENDS -->
+
+        <nav>
+
+            <ul id="menu">
+                <li>
+                    <div class="menu-abs-bg background-color"></div>
+                    <div class="home-icon menu-specs">
+                        <a href="index.html" title="Trang chủ">Trang chủ</a>
+                    </div>       
+                </li>
+                <li>
+                    <div class="menu-abs-bg background-color"></div>
+                    <div class="aboutus-icon menu-specs">
+                        <a href="#about" title="Giới thiệu">Giới thiệu</a>
+                    </div>
+                    <ul>
+                        <li><div class="sub-menu-bg background-color"></div><a href="aboutus.html">Giới thiệu chung</a></li>
+                        <li><div class="sub-menu-bg background-color"></div><a href="headers.html">Loại hình kinh doanh</a></li>
+                        <li><div class="sub-menu-bg background-color"></div><a href="columns.html">Thông tin tuyển dụng</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="menu-abs-bg background-color"></div>
+                    <div class="services-icon menu-specs">
+                        <a href="services.html" title="Dich vụ">Dịch Vụ</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-abs-bg background-color"></div>
+                    <div class="portfolio-icon menu-specs">
+                        <a href="#portfolio" title="Đối tác">Đối tác</a>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="menu-abs-bg background-color"></div>
+                    <div class="blog-icon menu-specs">
+                        <a href="blog.html" title="Tin tức">Tin tức</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="menu-abs-bg background-color"></div>
+                    <div class="contact-icon menu-specs">
+                        <a href="contactus.html" title="Liên lạc">Liên lạc</a>
+                    </div>
+                </li>
+            </ul><!-- Menu ENDS -->
+
+        </nav><!-- Nav ENDS -->
+
+
+    </header><!-- Left Side ENDS -->
+
+    <div id="subLevel" class="border-color background-color">
+
+        <div id="opener" class="border-left-color border-top-color"><div class="opener-plus"></div></div>
+
+        <ul id="about">
+            <li><a class="border-color-darker" href="aboutus.html">Giới thiệu chung</a></li>
+            <li><a class="border-color-darker" href="headers.html">Loại hình kinh doanh</a></li>
+            <li><a class="border-color-darker" href="columns.html">Thông tin tuyển dụng</a></li>
+        </ul>
+      
+
+    </div><!-- Sub Level ENDS -->
+
+    <div class="rightSide">
+
+        <div class="row">
+
+            <div class="twelve columns">
+                panner
+
+                          </div>
+
+        </div><!-- Site Heading Title ENDS -->
+
+
+            <div class="shadow-top"></div>
+
+
+            <div id="slider" class="nivoSlider home-slider">
+                <img src="img/slider/slider1.jpg" alt="slider" 
+                     title="#htmlcaption1"/>
+
+                <img src="img/slider/slider2.jpg" alt="slider" 
+                     title="#htmlcaption2"/>
+
+                <img src="img/slider/slider3.jpg" alt="slider" 
+                     title="#htmlcaption3"/>
+            </div>
+
+
+
+            <!-- image captions start -->
+            <div id="htmlcaption1">
+                <p class="nivo-caption-title">
+                    This is a perfect place for some cool image title.
+                </p>
+
+                <div class="nivo-caption-subtitle">
+                    With it's clean design and uniqlly designed pages, you'll be 
+                    able to find the perfect combination that suits your needs.
+                </div>
+            </div><!-- image captions end -->
+
+            <!-- Second image captions start -->
+            <div id="htmlcaption2">
+                <p class="nivo-caption-title">
+                    Perfect place for showcasing your best work.
+                </p>
+
+                <div class="nivo-caption-subtitle">
+                    Sed ut perspiciatis unde omnis iste natus error sit 
+                    voluptatem accusantium doloremque laudantium, totam rem.
+                </div>
+            </div><!-- image captions end -->
+
+            <!-- Thirs image captions start -->
+            <div id="htmlcaption3">
+                <p class="nivo-caption-title">
+                    Clean and simple design that will sure suit your needs.
+                </p>
+
+                <div class="nivo-caption-subtitle">
+                    Sed ut perspiciatis unde omnis iste natus error sit 
+                    voluptatem accusantium doloremque laudantium, totam rem.
+                </div>
+            </div><!-- image captions end -->
+
+            <!-- slider images shadow -->
+            <div class="slider-shadow"></div>
+
+            <div class="shadow-bottom"></div>
+
+
+
+
+        <div class="row">
+
+             @RenderBody()
+
+
+
+        </div><!-- Slider Row ENDS -->
+
+
+
+
+        <!-- Hình ảnh giới thiệu -->
+        <div class="row">
+
+            <div class="twelve columns">
+
+                <div class="partners-carousel-title background-color">
+                    Hình ảnh
+                </div>
+
+                <div class="partners-carousel-images">
+
+                    <img class="an-item" src="photos/partner-1.png" alt="partner" />
+                    <img class="an-item" src="photos/partner-2.png" alt="partner" />
+                    <img class="an-item" src="photos/partner-3.png" alt="partner" />
+                    <img class="an-item" src="photos/partner-4.png" alt="partner" />
+                    <img class="an-item" src="photos/partner-5.png" alt="partner" />
+                    <img class="an-item" src="photos/partner-1.png" alt="partner" />
+                    <img class="an-item" src="photos/partner-2.png" alt="partner" />
+                    <img class="an-item" src="photos/partner-3.png" alt="partner" />
+                    <img class="an-item" src="photos/partner-4.png" alt="partner" />
+
+                </div>
+
+                <div class="background-color partners-carousel-controls">
+
+                    <div id="carousel-directioner-prev" class="partners-carousel-control deactive to-left-icon"></div>
+                    <div id="carousel-directioner-next" class="partners-carousel-control to-right-icon"></div>
+
+                </div>
+
+            </div>
+
+        </div><!-- Partners Carousel ENDS -->
+
+        <div class="row footer background-color">
+
+            <div class="twelve columns">
+
+                <div class="footer-menu">
+
+                    <a href="http://www.mafiashare.net" class="left" title="Trang chủ">Trang chủ</a>
+                    <a href="aboutus.html" class="left" title="About Us">Giới thiệu</a>
+                    <a href="services.html" class="left" title="Services">Dịch vụ</a>
+                    <a href="blog.html" class="left" title="Blog">Đối tác</a>
+
+                    <a href="portfolio-with-texts.html" class="right" title="Portfolio 3">Tin tức </a>
+                    <a href="contactus.html" class="right" title="Contact Us">Liên lạc</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div><!-- RightSide ENDS -->
+
+</div><!-- Page Wrap ENDS -->
+
+<div id="toTop"></div>
+
+</body>
+
 </html>
