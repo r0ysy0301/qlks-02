@@ -8,6 +8,6 @@
 @foreach(var phong in Model)
 {
     string style = (phong.Deleted == true ? "style='color:red;'" : "");
-    <p @Html.Raw(style)>@phong.MaPhong |    @phong.SDTPhong</p>
+    <p @Html.Raw(style)>Mã phòng : @phong.MaPhong    |   Số điện thoại phòng: @phong.SDTPhong</p>
     
 }

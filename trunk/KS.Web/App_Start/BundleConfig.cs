@@ -10,7 +10,25 @@ namespace KS.Web
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
-
+            bundles.Add(new ScriptBundle("~/bundles/layoutscript").Include(
+                "~/Scripts/jquery-1.7.2.js",
+                "~/Scripts/images.js",
+                "~/Scripts/jquery.placeholder.min.js",
+                "~/Scripts/jquery.nivo.slider.js",
+                "~/Scripts/portfolio.js",
+                "~/Scripts//jquery.prettyPhoto.js",
+                "~/Scripts/jquery.tweetscroll.js",
+                "~/Scripts/socialstream.jquery.js",
+                "~/Scripts/jquery.carouFredSel-6.0.0-packed.js",
+                "~/Scripts/include.js",
+                "~/Scripts/jquerylayout.js",
+                "~/Scripts/caroufredsel.js",
+                "~/Scripts/nivo.js",
+                "~/Scripts/jquery.mousewheel.js",
+                "~/Scripts/tinyscrollbar.js",
+                "~/Scripts/custom.js",
+                "~/Scripts/isotope.js"
+                ));
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js"));
 
@@ -22,8 +40,17 @@ namespace KS.Web
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
-
-            bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
+                bundles.Add(new StyleBundle("~/Content/css1").Include(
+                "~/Content/css/basic.css",
+                "~/Content/css/style.css",
+                "~/Content/css/nivo-slider.css",
+                "~/Content/css/prettyPhoto.css",
+                "~/Content/css/reset.css",
+                "~/Content/css/grid.css",
+                "~/Content/css/nivo.css",
+                "~/Content/css/custom.css",
+                "~/Content/Font-Awesome/css/font-awesome.css",
+                "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
