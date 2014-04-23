@@ -1,10 +1,9 @@
-﻿@model IEnumerable<KS.Core.Model.PHONG>
+﻿@using KS.Web.NumberIndex;
+@using KS.Web.Models
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Danh sách phòng";
 }
-
-<h2>Danh sach phong hiện có</h2>
- @foreach (var phong in Model)
- {
-    <p>@phong.MaPhong  |    @phong.TinhTrang </p>  
- }
+@{Html.RenderPartial("_ListPhongPartial", new DislayListPhongViewModel { Dislayname = "Phòng thường", Entities = ViewBag.phongthuong });}
+@*@{Html.RenderPartial("_ListPhongPartial", new DislayListPhongViewModel { Dislayname = "Phòng Vip", Entities = ViewBag.phongvip });}
+@{Html.RenderPartial("_ListPhongPartial", new DislayListPhongViewModel { Dislayname = "Phòng Đơn", Entities = ViewBag.phongdon });}
+@{Html.RenderPartial("_ListPhongPartial", new DislayListPhongViewModel { Dislayname = "Phòng Đôi", Entities = ViewBag.doi });}*@

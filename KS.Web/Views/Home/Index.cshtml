@@ -1,13 +1,6 @@
-﻿@model IEnumerable<KS.Core.Model.PHONG>
+﻿
 
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Trang chủ";
 }
 
-<h2>Tổng cộng có @Model.Count() phòng:</h2>
-@foreach(var phong in Model)
-{
-    string style = (phong.Deleted == true ? "style='color:red;'" : "");
-    <p @Html.Raw(style)>Mã phòng : @phong.MaPhong    |   Số điện thoại phòng: @phong.SDTPhong</p>
-    
-}

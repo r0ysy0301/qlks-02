@@ -1,10 +1,3 @@
-C:\Users\Hàn\Desktop\New folder\KS.Core\bin\Debug\KS.Core.dll
-C:\Users\Hàn\Desktop\New folder\KS.Core\bin\Debug\KS.Core.pdb
-C:\Users\Hàn\Desktop\New folder\KS.Core\bin\Debug\KS.Common.dll
-C:\Users\Hàn\Desktop\New folder\KS.Core\bin\Debug\KS.Common.pdb
-C:\Users\Hàn\Desktop\New folder\KS.Core\obj\Debug\KS.Core.csprojResolveAssemblyReference.cache
-C:\Users\Hàn\Desktop\New folder\KS.Core\obj\Debug\KS.Core.dll
-C:\Users\Hàn\Desktop\New folder\KS.Core\obj\Debug\KS.Core.pdb
 C:\Users\Hàn\Desktop\DA_HK6\KS.Core\bin\Debug\KS.Core.dll
 C:\Users\Hàn\Desktop\DA_HK6\KS.Core\bin\Debug\KS.Core.pdb
 C:\Users\Hàn\Desktop\DA_HK6\KS.Core\bin\Debug\KS.Common.dll
@@ -12,3 +5,10 @@ C:\Users\Hàn\Desktop\DA_HK6\KS.Core\bin\Debug\KS.Common.pdb
 C:\Users\Hàn\Desktop\DA_HK6\KS.Core\obj\Debug\KS.Core.csprojResolveAssemblyReference.cache
 C:\Users\Hàn\Desktop\DA_HK6\KS.Core\obj\Debug\KS.Core.dll
 C:\Users\Hàn\Desktop\DA_HK6\KS.Core\obj\Debug\KS.Core.pdb
+C:\Users\Hàn\Desktop\New folder\KS.Core\bin\Debug\KS.Core.dll
+C:\Users\Hàn\Desktop\New folder\KS.Core\bin\Debug\KS.Core.pdb
+C:\Users\Hàn\Desktop\New folder\KS.Core\bin\Debug\KS.Common.dll
+C:\Users\Hàn\Desktop\New folder\KS.Core\bin\Debug\KS.Common.pdb
+C:\Users\Hàn\Desktop\New folder\KS.Core\obj\Debug\KS.Core.csprojResolveAssemblyReference.cache
+C:\Users\Hàn\Desktop\New folder\KS.Core\obj\Debug\KS.Core.dll
+C:\Users\Hàn\Desktop\New folder\KS.Core\obj\Debug\KS.Core.pdb

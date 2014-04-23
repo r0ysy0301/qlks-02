@@ -4,26 +4,26 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using KS.Core.Interface.Service;
+using KS.Web.NumberIndex;
 
 namespace KS.Web.Controllers
 {
     public class HomeController : Controller
-
     {
-        private readonly IPHONGService PHONGService;
-        public HomeController(IPHONGService PHONGService)
-        {
-            this.PHONGService = PHONGService;
-        }
-
+        //private readonly ItintucService tintucservice;
+  
+        //public HomeController(ItintucService tintucservice)
+        //{
+        //    this.tintucservice = tintucservice;
+        //}
         public ActionResult Index()
         {
-            return View(PHONGService.GetAll());
+            return View();
         }
 
-        public ActionResult About()
+        public ActionResult Aboutfull()
         {
-            ViewBag.Message = "Your app description page.";
+            
 
             return View();
         }
@@ -32,6 +32,14 @@ namespace KS.Web.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+        public ActionResult Dichvu()
+        {
+            return View();
+        }
+        public ActionResult doitac()
+        {
             return View();
         }
     }
