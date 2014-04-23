@@ -40,6 +40,9 @@ namespace KS.Web
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
+            bundles.Add(new ScriptBundle("~/bundles/ckeditor").Include(
+                        "~/ckeditor/ckeditor.js"));
+
                 bundles.Add(new StyleBundle("~/Content/css1").Include(
                 "~/Content/css/basic.css",
                 "~/Content/css/style.css",
@@ -49,6 +52,7 @@ namespace KS.Web
                 "~/Content/css/grid.css",
                 "~/Content/css/nivo.css",
                 "~/Content/css/custom.css",
+                "~/Content/style.css",
                 "~/Content/Font-Awesome/css/font-awesome.css",
                 "~/Content/site.css"));
 

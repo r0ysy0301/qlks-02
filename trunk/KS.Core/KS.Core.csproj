@@ -50,11 +50,13 @@
     <Compile Include="Interface\Service\AdminInterface\IAdminKHACHCUNGPHONGService.cs" />
     <Compile Include="Interface\Service\AdminInterface\IAdminKHACHService.cs" />
     <Compile Include="Interface\Service\AdminInterface\IAdminLOAIPHONGService.cs" />
+    <Compile Include="Interface\Service\AdminInterface\IAdminMOTAService.cs" />
     <Compile Include="Interface\Service\AdminInterface\IAdminNHANVIENService.cs" />
     <Compile Include="Interface\Service\AdminInterface\IAdminPHIEUDATPHONGService.cs" />
     <Compile Include="Interface\Service\AdminInterface\IAdminPHIEUDICHVUService.cs" />
     <Compile Include="Interface\Service\AdminInterface\IAdminPHIEUTHUETRAService.cs" />
     <Compile Include="Interface\Service\AdminInterface\IAdminPHONGService.cs" />
+    <Compile Include="Interface\Service\AdminInterface\IAdmintintucService.cs" />
     <Compile Include="Interface\Service\AdminInterface\IAdminUSERSevice.cs" />
     <Compile Include="Interface\Service\BasicInterface\ICHITIETPHIEUDPService.cs" />
     <Compile Include="Interface\Service\BasicInterface\IDICHVUService.cs" />
@@ -62,11 +64,13 @@
     <Compile Include="Interface\Service\BasicInterface\IKHACHCUNGPHONGService.cs" />
     <Compile Include="Interface\Service\BasicInterface\IKHACHService.cs" />
     <Compile Include="Interface\Service\BasicInterface\ILOAIPHONGService.cs" />
+    <Compile Include="Interface\Service\BasicInterface\IMOTAService.cs" />
     <Compile Include="Interface\Service\BasicInterface\INHANVIENService.cs" />
     <Compile Include="Interface\Service\BasicInterface\IPHIEUDATPHONGService.cs" />
     <Compile Include="Interface\Service\BasicInterface\IPHIEUDICHVUService.cs" />
     <Compile Include="Interface\Service\BasicInterface\IPHIEUTHUETRAService.cs" />
     <Compile Include="Interface\Service\BasicInterface\IPHONGService.cs" />
+    <Compile Include="Interface\Service\BasicInterface\ItintucService.cs" />
     <Compile Include="Interface\Service\BasicInterface\IUSERService.cs" />
     <Compile Include="Interface\Service\IService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliCHITIETPHIEUDICHVUService.cs" />
@@ -75,11 +79,13 @@
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliKHACHCUNGPHONGService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliKHACHService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliLOAIPHONGService.cs" />
+    <Compile Include="Interface\Service\QuanLiInterface\IQuanliMOTAService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliNHANVIENService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliPHIEUDATPHONGService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliPHIEUDICHVUService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliPHIEUTHUETRAService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliPHONGService.cs" />
+    <Compile Include="Interface\Service\QuanLiInterface\IQuanlitintucService.cs" />
     <Compile Include="Interface\Service\QuanLiInterface\IQuanliUSERService.cs" />
     <Compile Include="Model\Base\PersistentEntity.cs" />
     <Compile Include="Model\CHITIETPHIEUDP.cs" />
@@ -88,11 +94,13 @@
     <Compile Include="Model\KHACH.cs" />
     <Compile Include="Model\KHACHCUNGPHONG.cs" />
     <Compile Include="Model\LOAIPHONG.cs" />
+    <Compile Include="Model\MOTA.cs" />
     <Compile Include="Model\NHANVIEN.cs" />
     <Compile Include="Model\PHIEUDATPHONG.cs" />
     <Compile Include="Model\PHIEUDICHVU.cs" />
     <Compile Include="Model\PHIEUTHUETRA.cs" />
     <Compile Include="Model\PHONG.cs" />
+    <Compile Include="Model\tintuc.cs" />
     <Compile Include="Model\USER.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -45,11 +45,13 @@
     <Compile Include="Admin\AdminKHACHCUNGPHONGService.cs" />
     <Compile Include="Admin\AdminKHACHService.cs" />
     <Compile Include="Admin\AdminLOAIPHONGService.cs" />
+    <Compile Include="Admin\AdminMOTAService.cs" />
     <Compile Include="Admin\AdminNHANVIENService.cs" />
     <Compile Include="Admin\AdminPHIEUDATPHONGService.cs" />
     <Compile Include="Admin\AdminPHIEUDICHVUService.cs" />
     <Compile Include="Admin\AdminPHIEUTHUETRAService.cs" />
     <Compile Include="Admin\AdminPHONGService.cs" />
+    <Compile Include="Admin\AdmintintucService.cs" />
     <Compile Include="Admin\AdminUSERService.cs" />
     <Compile Include="BaseService.cs" />
     <Compile Include="Base\CHITIETPHIEUDPService.cs" />
@@ -58,11 +60,13 @@
     <Compile Include="Base\KHACHCUNGPHONGService.cs" />
     <Compile Include="Base\KHACHService.cs" />
     <Compile Include="Base\LOAIPHONGService.cs" />
+    <Compile Include="Base\MOTAService.cs" />
     <Compile Include="Base\NHANVIENService.cs" />
     <Compile Include="Base\PHIEUDATPHONGService.cs" />
     <Compile Include="Base\PHIEUDICHVUService.cs" />
     <Compile Include="Base\PHIEUTHUETRAService.cs" />
     <Compile Include="Base\PHONGSevice.cs" />
+    <Compile Include="Base\tintucService.cs" />
     <Compile Include="Base\USERService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quanli\QuanliCHITIETPHIEUDPService.cs" />
@@ -71,6 +75,7 @@
     <Compile Include="Quanli\QuanliKHACHCUNGPHONGService.cs" />
     <Compile Include="Quanli\QuanliKHACHService.cs" />
     <Compile Include="Quanli\QuanliLOAIPHONGService.cs" />
+    <Compile Include="Quanli\QuanliMOTAService.cs" />
     <Compile Include="Quanli\QuanliNHANVIENService.cs" />
     <Compile Include="Quanli\QuanliPHIEUDATPHONGService.cs" />
     <Compile Include="Quanli\QuanliPHIEUDICHVUService.cs" />

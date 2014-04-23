@@ -81,11 +81,13 @@ namespace KS.Web.App_Start
             kernel.Bind<IRepository<KHACH>>().To<Repository<KHACH>>().InRequestScope();
             kernel.Bind<IRepository<KHACHCUNGPHONG>>().To<Repository<KHACHCUNGPHONG>>().InRequestScope();
             kernel.Bind<IRepository<LOAIPHONG>>().To<Repository<LOAIPHONG>>().InRequestScope();
+            kernel.Bind<IRepository<MOTA>>().To<Repository<MOTA>>().InRequestScope();
             kernel.Bind<IRepository<NHANVIEN>>().To<Repository<NHANVIEN>>().InRequestScope();
             kernel.Bind<IRepository<PHIEUDATPHONG>>().To<Repository<PHIEUDATPHONG>>().InRequestScope();
             kernel.Bind<IRepository<PHIEUDICHVU>>().To<Repository<PHIEUDICHVU>>().InRequestScope();
             kernel.Bind<IRepository<PHIEUTHUETRA>>().To<Repository<PHIEUTHUETRA>>().InRequestScope();
             kernel.Bind<IRepository<PHONG>>().To<Repository<PHONG>>().InRequestScope();
+            kernel.Bind<IRepository<tintuc>>().To<Repository<tintuc>>().InRequestScope();
             kernel.Bind<IRepository<USER>>().To<Repository<USER>>().InRequestScope();
 
             kernel.Bind<IAdminRepository<CHITIETPHIEUDP>>().To<AdminRepository<CHITIETPHIEUDP>>().InRequestScope();
@@ -94,11 +96,13 @@ namespace KS.Web.App_Start
             kernel.Bind<IAdminRepository<KHACH>>().To<AdminRepository<KHACH>>().InRequestScope();
             kernel.Bind<IAdminRepository<KHACHCUNGPHONG>>().To<AdminRepository<KHACHCUNGPHONG>>().InRequestScope();
             kernel.Bind<IAdminRepository<LOAIPHONG>>().To<AdminRepository<LOAIPHONG>>().InRequestScope();
+            kernel.Bind<IAdminRepository<MOTA>>().To<AdminRepository<MOTA>>().InRequestScope();
             kernel.Bind<IAdminRepository<NHANVIEN>>().To<AdminRepository<NHANVIEN>>().InRequestScope();
             kernel.Bind<IAdminRepository<PHIEUDATPHONG>>().To<AdminRepository<PHIEUDATPHONG>>().InRequestScope();
             kernel.Bind<IAdminRepository<PHIEUDICHVU>>().To<AdminRepository<PHIEUDICHVU>>().InRequestScope();
             kernel.Bind<IAdminRepository<PHIEUTHUETRA>>().To<AdminRepository<PHIEUTHUETRA>>().InRequestScope();
             kernel.Bind<IAdminRepository<PHONG>>().To<AdminRepository<PHONG>>().InRequestScope();
+            kernel.Bind<IAdminRepository<tintuc>>().To<AdminRepository<tintuc>>().InRequestScope();
             kernel.Bind<IAdminRepository<USER>>().To<AdminRepository<USER>>().InRequestScope();
 
             kernel.Bind<IQuanliRepository<CHITIETPHIEUDP>>().To<QuanliRepository<CHITIETPHIEUDP>>().InRequestScope();
@@ -107,11 +111,13 @@ namespace KS.Web.App_Start
             kernel.Bind<IQuanliRepository<KHACH>>().To<QuanliRepository<KHACH>>().InRequestScope();
             kernel.Bind<IQuanliRepository<KHACHCUNGPHONG>>().To<QuanliRepository<KHACHCUNGPHONG>>().InRequestScope();
             kernel.Bind<IQuanliRepository<LOAIPHONG>>().To<QuanliRepository<LOAIPHONG>>().InRequestScope();
+            kernel.Bind<IQuanliRepository<MOTA>>().To<QuanliRepository<MOTA>>().InRequestScope();
             kernel.Bind<IQuanliRepository<NHANVIEN>>().To<QuanliRepository<NHANVIEN>>().InRequestScope();
             kernel.Bind<IQuanliRepository<PHIEUDATPHONG>>().To<QuanliRepository<PHIEUDATPHONG>>().InRequestScope();
             kernel.Bind<IQuanliRepository<PHIEUDICHVU>>().To<QuanliRepository<PHIEUDICHVU>>().InRequestScope();
             kernel.Bind<IQuanliRepository<PHIEUTHUETRA>>().To<QuanliRepository<PHIEUTHUETRA>>().InRequestScope();
             kernel.Bind<IQuanliRepository<PHONG>>().To<QuanliRepository<PHONG>>().InRequestScope();
+            kernel.Bind<IQuanliRepository<tintuc>>().To<QuanliRepository<tintuc>>().InRequestScope();
             kernel.Bind<IQuanliRepository<USER>>().To<QuanliRepository<USER>>().InRequestScope();
 
             kernel.Bind<ICHITIETPHIEUDPService>().To<CHITIETPHIEUDPService>().InRequestScope();
@@ -120,11 +126,13 @@ namespace KS.Web.App_Start
             kernel.Bind<IKHACHCUNGPHONGService>().To<KHACHCUNGPHONGService>().InRequestScope();
             kernel.Bind<IKHACHService>().To<KHACHService>().InRequestScope();
             kernel.Bind<ILOAIPHONGService>().To<LOAIPHONGService>().InRequestScope();
+            kernel.Bind<IMOTAService>().To<MOTAService>().InRequestScope();
             kernel.Bind<INHANVIENService>().To<NHANVIENService>().InRequestScope();
             kernel.Bind<IPHIEUDATPHONGService>().To<PHIEUDATPHONGService>().InRequestScope();
             kernel.Bind<IPHIEUDICHVUService>().To<PHIEUDICHVUService>().InRequestScope();
             kernel.Bind<IPHIEUTHUETRAService>().To<PHIEUTHUETRAService>().InRequestScope();
             kernel.Bind<IPHONGService>().To<PHONGSevice>().InRequestScope();
+            kernel.Bind<ItintucService>().To<tintucService>().InRequestScope();
             kernel.Bind<IUSERService>().To<USERService>().InRequestScope();
 
             kernel.Bind<IAdminCHITIETPHIEUDPService>().To<AdminCHITIETPHIEUDPService>().InRequestScope();
@@ -133,11 +141,13 @@ namespace KS.Web.App_Start
             kernel.Bind<IAdminKHACHCUNGPHONGService>().To<AdminKHACHCUNGPHONGService>().InRequestScope();
             kernel.Bind<IAdminKHACHService>().To<AdminKHACHService>().InRequestScope();
             kernel.Bind<IAdminLOAIPHONGService>().To<AdminLOAIPHONGService>().InRequestScope();
+            kernel.Bind<IAdminMOTAService>().To<AdminMOTAService>().InRequestScope();
             kernel.Bind<IAdminNHANVIENService>().To<AdminNHANVIENService>().InRequestScope();
             kernel.Bind<IAdminPHIEUDATPHONGService>().To<AdminPHIEUDATPHONGService>().InRequestScope();
             kernel.Bind<IAdminPHIEUDICHVUService>().To<AdminPHIEUDICHVUService>().InRequestScope();
             kernel.Bind<IAdminPHIEUTHUETRAService>().To<AdminPHIEUTHUETRAService>().InRequestScope();
             kernel.Bind<IAdminPHONGService>().To<AdminPHONGService>().InRequestScope();
+            kernel.Bind<IAdmintintucService>().To<AdmintintucService>().InRequestScope();
             kernel.Bind<IAdminUSERSevice>().To<AdminUSERService>().InRequestScope();
 
             kernel.Bind<IQuanliCHITIETPHIEUDICHVUService>().To<QuanliCHITIETPHIEUDPService>().InRequestScope();
@@ -146,11 +156,13 @@ namespace KS.Web.App_Start
             kernel.Bind<IQuanliKHACHCUNGPHONGService>().To<QuanliKHACHCUNGPHONGService>().InRequestScope();
             kernel.Bind<IQuanliKHACHService>().To<QuanliKHACHService>().InRequestScope();
             kernel.Bind<IQuanliLOAIPHONGService>().To<QuanliLOAIPHONGService>().InRequestScope();
+            kernel.Bind<IQuanliMOTAService>().To<QuanliMOTAService>().InRequestScope();
             kernel.Bind<IQuanliNHANVIENService>().To<QuanliNHANVIENService>().InRequestScope();
             kernel.Bind<IQuanliPHIEUDATPHONGService>().To<QuanliPHIEUDATPHONGService>().InRequestScope();
             kernel.Bind<IQuanliPHIEUDICHVUService>().To<QuanliPHIEUDICHVUService>().InRequestScope();
             kernel.Bind<IQuanliPHIEUTHUETRAService>().To<QuanliPHIEUTHUETRAService>().InRequestScope();
             kernel.Bind<IQuanliPHONGService>().To<QuanliPHONGService>().InRequestScope();
+            //kernel.Bind<IQuanlitintucService>().To<QuanlitintucService>().InRequestScope();
             kernel.Bind<IQuanliUSERService>().To<QuanliUSERService>().InRequestScope();
         }        
     }
