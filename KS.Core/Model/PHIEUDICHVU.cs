@@ -9,7 +9,7 @@ namespace KS.Core.Model
     public partial class PHIEUDICHVU: PersistentEntity
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaPhieuDV { get; set; }
         public string MaDV { get; set; }
         public string MaPhong { get; set; }

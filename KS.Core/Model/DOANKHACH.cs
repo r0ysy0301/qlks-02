@@ -13,7 +13,7 @@ namespace KS.Core.Model
             this.KHACHes = new HashSet<KHACH>();
         }
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaDoan { get; set; }
         public string TenDoanKhach { get; set; }
 

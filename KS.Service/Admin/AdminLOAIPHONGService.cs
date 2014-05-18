@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using KS.Service.Base;
 using KS.Core.Model;
 using KS.Core.Interface.Data;
@@ -14,6 +15,15 @@ namespace KS.Service.Admin
             : base(repository, unitOfWork)
         {
             this.Repository = repository;
+        }
+    }
+    public partial class AdminLOAIPHONGService
+    {
+        public IQueryable<LOAIPHONG> GetAll(int quantity)
+        {
+            return this.GetAll()
+                .OrderBy(item => item.MaLoaiPhong)
+                .Take(quantity);
         }
     }
 }

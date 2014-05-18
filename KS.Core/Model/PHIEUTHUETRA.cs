@@ -9,7 +9,7 @@ namespace KS.Core.Model
     public partial class PHIEUTHUETRA:PersistentEntity
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaPhieuThue { get; set; }
         public string MaPhong { get; set; }
         public string MaKhach { get; set; }

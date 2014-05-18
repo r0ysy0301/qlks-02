@@ -204,6 +204,10 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Areas\Admin\Controllers\HomeController.cs" />
+    <Compile Include="Areas\Admin\Controllers\LoaiPhongController.cs" />
+    <Compile Include="Areas\Admin\Controllers\NhanVienController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PhongController.cs" />
+    <Compile Include="Areas\Quanly\QuanlyAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ChitietphieudpController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -663,6 +667,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Images\background.jpg" />
+    <Content Include="Images\details_bt_bg.gif" />
     <Content Include="img\about\Descr.WD3" />
     <Content Include="img\blog\Descr.WD3" />
     <Content Include="img\contact\Descr.WD3" />
@@ -701,6 +706,12 @@
     <Content Include="ckeditor\skins\moono\readme.md" />
     <Content Include="Areas\Admin\Views\Web.config" />
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\LoaiPhong\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\LoaiPhong\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Phong\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Phong\Create.cshtml" />
+    <Content Include="Areas\Quanly\Views\Web.config" />
+    <Content Include="Areas\Admin\Views\NhanVien\Index.cshtml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="img\404.png" />
     <Content Include="img\about\author.jpg" />
@@ -1107,17 +1118,20 @@
     <Content Include="Views\Home\Dichvu.cshtml" />
     <Content Include="Views\Home\doitac.cshtml" />
     <Content Include="Views\loaiphong\menu.cshtml" />
-    <Content Include="Views\tintuc\Index.cshtml" />
     <Content Include="Views\Shared\_ListtintucPartial.cshtml" />
     <Content Include="Views\Shared\_ListPhongPartial.cshtml" />
     <Content Include="Views\Phong\Index.cshtml" />
     <Content Include="Views\Phong\chitiet.cshtml" />
     <Content Include="Views\Shared\_Slide.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\tintuc\chitiet.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
+    <Folder Include="Areas\Quanly\Controllers\" />
+    <Folder Include="Areas\Quanly\Models\" />
+    <Folder Include="Areas\Quanly\Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -1139,6 +1153,9 @@
       <Project>{cd8808bf-ab8c-49ee-bd2f-4e700d4b025c}</Project>
       <Name>KS.Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

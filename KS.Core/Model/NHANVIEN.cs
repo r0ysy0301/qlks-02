@@ -12,7 +12,7 @@ namespace KS.Core.Model
             this.PHIEUTHUETRAs = new HashSet<PHIEUTHUETRA>();
         }
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaNV { get; set; }
         public string TenNV { get; set; }
         public Nullable<System.DateTime> NgaySinhNV { get; set; }

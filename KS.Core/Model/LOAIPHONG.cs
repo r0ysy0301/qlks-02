@@ -13,7 +13,7 @@ namespace KS.Core.Model
             this.PHONGs = new HashSet<PHONG>();
         }
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaLoaiPhong { get; set; }
         public string TenLoai { get; set; }
         public Nullable<decimal> DonGia { get; set; }

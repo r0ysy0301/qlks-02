@@ -25,6 +25,9 @@ namespace KS.Web.Models
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int UserId { get; set; }
         public string UserName { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public System.DateTime BirthDay { get; set; }
     }
 
     public class RegisterExternalLoginModel
@@ -73,18 +76,30 @@ namespace KS.Web.Models
     public class RegisterModel
     {
         [Required]
-        [Display(Name = "User name")]
+        [Display(Name = "Họ và tên")]
+        public string Name { get; set; }
+
+        [Required]
+        [Display(Name = "Ngày sinh")]
+        public string BirthDay { get; set; }
+
+        [Required]
+        [Display(Name = "Địa chỉ")]
+        public string Address { get; set; }
+
+        [Required]
+        [Display(Name = "Tên đăng nhập")]
         public string UserName { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
-        [Display(Name = "Password")]
+        [Display(Name = "Mật khẩu")]
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        [Display(Name = "Nhập lại mật khẩu")]
+        [Compare("Password", ErrorMessage = "Mật khẩu xác nhận không chính xác")]
         public string ConfirmPassword { get; set; }
     }
 

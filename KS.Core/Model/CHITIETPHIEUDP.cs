@@ -8,7 +8,7 @@ namespace KS.Core.Model
     public partial class CHITIETPHIEUDP: PersistentEntity
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaPhieuDP { get; set; }
         public string MaKhach { get; set; }
         public System.DateTime NgayDen { get; set; }

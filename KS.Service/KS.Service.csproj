@@ -51,10 +51,12 @@
     <Compile Include="Admin\AdminPHIEUDICHVUService.cs" />
     <Compile Include="Admin\AdminPHIEUTHUETRAService.cs" />
     <Compile Include="Admin\AdminPHONGService.cs" />
+    <Compile Include="Admin\AdminTHONGKEService.cs" />
     <Compile Include="Admin\AdmintintucService.cs" />
     <Compile Include="Admin\AdminUSERService.cs" />
     <Compile Include="BaseService.cs" />
     <Compile Include="Base\CHITIETPHIEUDPService.cs" />
+    <Compile Include="Base\DATPHONGService.cs" />
     <Compile Include="Base\DICHVUService.cs" />
     <Compile Include="Base\DOANKHACHService.cs" />
     <Compile Include="Base\KHACHCUNGPHONGService.cs" />
@@ -66,6 +68,7 @@
     <Compile Include="Base\PHIEUDICHVUService.cs" />
     <Compile Include="Base\PHIEUTHUETRAService.cs" />
     <Compile Include="Base\PHONGSevice.cs" />
+    <Compile Include="Base\THONGKEService.cs" />
     <Compile Include="Base\tintucService.cs" />
     <Compile Include="Base\USERService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
