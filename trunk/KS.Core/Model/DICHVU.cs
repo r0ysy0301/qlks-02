@@ -12,7 +12,7 @@ namespace KS.Core.Model
             this.PHIEUDICHVUs = new HashSet<PHIEUDICHVU>();
         }
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaDV { get; set; }
         public string TenDV { get; set; }
         public string DonViTinh { get; set; }

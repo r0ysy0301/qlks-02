@@ -8,7 +8,7 @@ namespace KS.Core.Model
     public partial class KHACHCUNGPHONG:PersistentEntity
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaKhachCP { get; set; }
         public string MaKhach { get; set; }
         public string TenKhachCP { get; set; }

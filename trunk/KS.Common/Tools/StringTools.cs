@@ -44,5 +44,17 @@ namespace KS.Common.Tools
         {
             return date == null ? "" : ((DateTime)date).ToString(formatString);
         }
+        public static string TrimString(string str, int maxLength, string endString)
+        {
+            if (str == null) return "";
+            if (str.Length > maxLength)
+                str = str.Substring(0, maxLength) + endString;
+            return str;
+        }
+
+        public static object TrimString(string p1, string p2)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -13,7 +13,7 @@ namespace KS.Core.Model
             this.CHITIETPHIEUDPs = new HashSet<CHITIETPHIEUDP>();
         }
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public string MaPhieuDP { get; set; }
         public string YeuCauLoaPhong { get; set; }
         public Nullable<int> SoLuongPhong { get; set; }

@@ -11,13 +11,15 @@ namespace KS.Web.Controllers
     public class HomeController : Controller
     {
         //private readonly ItintucService tintucservice;
-  
+        //private int sotintuchienthingoaitrangchu = AppConfig.Sotintuchienthingoaitrangchu;
+
         //public HomeController(ItintucService tintucservice)
         //{
         //    this.tintucservice = tintucservice;
         //}
         public ActionResult Index()
         {
+           // ViewBag.tintuc = tintucservice.GetNew(sotintuchienthingoaitrangchu);
             return View();
         }
 

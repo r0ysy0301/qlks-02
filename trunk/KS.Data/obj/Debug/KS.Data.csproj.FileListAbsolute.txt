@@ -26,3 +26,17 @@ C:\Users\Hàn\Desktop\New folder\KS.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Hàn\Desktop\New folder\KS.Data\obj\Debug\KS.Data.csprojResolveAssemblyReference.cache
 C:\Users\Hàn\Desktop\New folder\KS.Data\obj\Debug\KS.Data.dll
 C:\Users\Hàn\Desktop\New folder\KS.Data\obj\Debug\KS.Data.pdb
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\KS.Data.dll.config
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\KS.Data.dll
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\KS.Data.pdb
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\EntityFramework.dll
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\KS.Common.dll
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\KS.Core.dll
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\KS.Common.pdb
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\KS.Core.pdb
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\EntityFramework.xml
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\obj\Debug\KS.Data.csprojResolveAssemblyReference.cache
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\obj\Debug\KS.Data.dll
+C:\Users\Hàn\Desktop\QLKS-02\KS.Data\obj\Debug\KS.Data.pdb

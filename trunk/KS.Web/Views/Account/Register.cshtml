@@ -1,20 +1,31 @@
 ﻿@model KS.Web.Models.RegisterModel
 @{
-    ViewBag.Title = "Register";
+    ViewBag.Title = "Đăng ký tài khoản";
 }
-
-<hgroup class="title">
-    <h1>@ViewBag.Title.</h1>
-    <h2>Create a new account.</h2>
-</hgroup>
 
 @using (Html.BeginForm()) {
     @Html.AntiForgeryToken()
     @Html.ValidationSummary()
 
     <fieldset>
-        <legend>Registration Form</legend>
+        <legend>Đăng ký tài khoản </legend>
         <ol>
+            
+            <li>
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name)
+            </li>
+
+            <li>
+                @Html.LabelFor(m => m.BirthDay)
+                @Html.TextBoxFor(m => m.BirthDay)
+            </li>
+
+            <li>
+                @Html.LabelFor(m => m.Address)
+                @Html.TextBoxFor(m => m.Address)
+            </li>
+
             <li>
                 @Html.LabelFor(m => m.UserName)
                 @Html.TextBoxFor(m => m.UserName)
@@ -28,7 +39,7 @@
                 @Html.PasswordFor(m => m.ConfirmPassword)
             </li>
         </ol>
-        <input type="submit" value="Register" />
+        <input type="submit" value="Đăng ký" />
     </fieldset>
 }
 
